@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Button from './Button';
 
+
 function Header() {
+    
     return (
         <div>
             <div className='flex items-center justify-between px-3 md:px-10 lg:px-20 py-3'>
