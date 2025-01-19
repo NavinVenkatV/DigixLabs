@@ -1,4 +1,5 @@
 import React from 'react'
+import PricingTag from './PricingTag'
 
 function Pricing() {
   return (
@@ -14,6 +15,11 @@ function Pricing() {
                 </div>
             </div>
         </div>
+      </div>
+      <div className='lg:flex justify-around px-12 lg:px-36'>
+        <PricingTag/>
+        <PricingTag/>
+        <PricingTag/>
       </div>
     </div>
   )

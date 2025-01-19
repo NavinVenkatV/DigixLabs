@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Header from "./Component/Header";
 import Hero from "./Component/Hero";
 import Marquee from "./Component/Marquee";
+import Pricing from "./Component/Pricing";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,7 +38,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div id="smooth" className="w-full h-full overflow-hidden pb-20">
+    <div id="smooth" className="w-full h-full  pb-20 overflow-hidden">
       <Header />
       <Hero />
       <div className="text-center text-2xl text-slate-400 mt-10">
@@ -63,6 +64,7 @@ export default function Home() {
           <div>all in one place.</div>
         </div>
       </div>
+      <Pricing/>
     </div>
   );
 }
