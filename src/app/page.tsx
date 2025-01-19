@@ -7,6 +7,7 @@ import Header from "./Component/Header";
 import Hero from "./Component/Hero";
 import Marquee from "./Component/Marquee";
 import Pricing from "./Component/Pricing";
+import { TextParallaxContentExample } from "./Component/parallax";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,6 +66,8 @@ export default function Home() {
         </div>
       </div>
       <Pricing/>
-    </div>
+      <div className="mt-14 bg-black">      <TextParallaxContentExample/>
+      </div>
+    </div> 
   );
 }

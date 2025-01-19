@@ -2,7 +2,7 @@ import React from 'react'
 
 function PricingTag() {
     return (
-        <div className='p-11 bg-pink-500 rounded-3xl mt-32 hover:bg-pink-400'>
+        <div className='p-11 bg-pink-500 rounded-3xl mt-32 '>
             <p className='text-center text-black text-3xl'>$200/Month</p>
             <div className='mt-10'>
             <p>✓ 2 Technical Blog Posts</p>
