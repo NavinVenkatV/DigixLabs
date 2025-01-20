@@ -6,12 +6,20 @@ function Header() {
     
     return (
         <div>
-            <div className='flex items-center justify-between px-3 md:px-10 lg:px-20 py-3'>
-                <img src="/logo2.png" alt="Logo" width={250} height={250}/>
-                <div className='hidden md:flex items-center'>
-                        <a className='px-7'>Home</a>
-                        <a className='px-7'>Read</a>
-                        <a className='px-7'>Watch</a>
+            <div className='flex items-center justify-between px-3 md:px-1 lg:px-20 py-3'>
+                <img src="/logo2.png" alt="Logo" width={250} height={250} />
+                <div className='hidden md:flex md:justify-between items-center w-64'>
+                        <a href='#' className='cursor-pointer relative group'>Home
+                            <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        </a>
+                        <a className='cursor-pointer relative group'>Read
+                        <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
+
+                        </a>
+                        <a className='cursor-pointer relative group'>Watch
+                        <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
+
+                        </a>
                 </div>
                 <div>
                     <Button/>
