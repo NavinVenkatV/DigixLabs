@@ -9,6 +9,7 @@ import Pricing from "./Component/Pricing";
 import { TextParallaxContentExample } from "./Component/parallax";
 import { Marquee } from "./Component/Marquee";
 import Footer from "./Component/Footer";
+import Figma from "./Component/figma";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,17 +49,7 @@ export default function Home() {
       </div>
       <Marquee/>
       <div className=""><Marquee/></div>
-      <div className="flex justify-center mt-32">
-        <div className="flex flex-col justify-center max-w-[700px]">
-          <div className="text-3xl lg:text-7xl text-center px-8 lg:px-0">
-            Empower Your Brand with Cryptonic Labs
-          </div>
-          <div className="text-center text-sm  px-12 mt-5 text-neutral-500 lg:text-xl">
-            From technical content to DevRel, we deliver the tools to elevate
-            your brand and drive engagement.
-          </div>
-        </div>
-      </div>
+      <Figma/>
       
       <div className="text-black bg-pink-500 py-20 my-10 text-5xl lg:text-9xl pl-10 lg:pl-24  ">
         <div className="flex flex-col gap-2 animated-text animated-text-section">
