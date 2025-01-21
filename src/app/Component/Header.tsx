@@ -16,8 +16,8 @@ function Header() {
                         <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
 
                         </a>
-                        <a href='talk' className='cursor-pointer relative group'>Talk
-                        <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        <a href='talk' className='cursor-pointer  relative group'>Talk with AI
+                        <span className='absolute  left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
 
                         </a>
                 </div>
