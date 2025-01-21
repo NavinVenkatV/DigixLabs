@@ -12,7 +12,7 @@ function Header() {
                         <a href='/' className='cursor-pointer relative group'>Home
                             <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
                         </a>
-                        <a href='read' className='cursor-pointer relative group'>Read
+                        <a href='read' className='cursor-pointer relative group'>Photos
                         <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full'></span>
 
                         </a>
