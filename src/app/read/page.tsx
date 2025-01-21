@@ -1,22 +1,21 @@
 "use client"
 
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Header from "../Component/Header";
+import Lenis from "@studio-freight/lenis/types";
 
 import Footer from "../Component/Footer";
-import Accordion from "../Component/Accordion";
+import Yt from "../Component/yt";
 
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
 
+  
 
   return (
-    <div id="smooth" className="w-full h-full overflow-hidden">
+    <div id="smooth" className="w-full h-full overflow-hidden m-0 p-0">
       <Header />
-      <div className="">
-        <Accordion/>
+      <div className="py-5">
+        <Yt/>
       </div>
       <Footer/>
     </div> 

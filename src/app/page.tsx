@@ -1,5 +1,8 @@
 "use client"
 
+import Lenis from '@studio-freight/lenis'
+
+
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,8 +17,16 @@ import Figma from "./Component/figma";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
+ 
+    useEffect( () => {
+    const lenis = new Lenis()
+    const raf = (time : number) => {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    requestAnimationFrame(raf)
+  }, [])
   
-
   useEffect(() => {
     // Animate the text section with re-trigger on scroll
     gsap.fromTo(

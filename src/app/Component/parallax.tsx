@@ -40,7 +40,14 @@ export const TextParallaxContentExample = () => {
 
 const IMG_PADDING = 12;
 
-const TextParallaxContent = ({ imgUrl, subheading, heading, children } ) => {
+interface typess {
+  imgUrl : string,
+  subheading : string, 
+  heading : string,
+  children : React.ReactNode
+}
+
+const TextParallaxContent = ({ imgUrl, subheading, heading, children } : typess ) => {
   return (
     <div
       style={{
@@ -57,7 +64,7 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children } ) => {
   );
 };
 
-const StickyImage = ({ imgUrl  } ) => {
+const StickyImage = ({ imgUrl  } : typess ) => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -90,7 +97,7 @@ const StickyImage = ({ imgUrl  } ) => {
   );
 };
 
-const OverlayCopy = ({heading, subheading})  => {
+const OverlayCopy = ({heading, subheading} : typess)  => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -116,8 +123,10 @@ const OverlayCopy = ({heading, subheading})  => {
     </motion.div>
   );
 };
-
-const ExampleContent = ({description}  : any) => (
+interface sample{
+  description : string
+}
+const ExampleContent = ({description}  : sample) => (
   <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
     <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
       Additional content explaining the above card here

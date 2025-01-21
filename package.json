@@ -10,11 +10,12 @@
   },
   "dependencies": {
     "@next/font": "^14.2.15",
+    "@studio-freight/lenis": "^1.0.42",
     "@types/locomotive-scroll": "^4.1.4",
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.1",
     "gsap": "^3.12.7",
-    "lenis": "^1.1.19",
+    "lenis": "^1.1.20",
     "locomotive-scroll": "^4.1.4",
     "next": "15.1.4",
     "react": "^19.0.0",
@@ -32,6 +33,6 @@
     "eslint-config-next": "15.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5.7.3"
   }
 }
