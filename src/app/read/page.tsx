@@ -17,7 +17,7 @@ export default function Home() {
       <div className="py-5">
         <Yt/>
       </div>
-      <Footer/>
+      <Footer bg="bg.mp4"/>
     </div> 
   );
 }

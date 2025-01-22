@@ -35,8 +35,9 @@ export default function Yt() {
     function Card({ images, y }: types) {
         return (
             <motion.div style={{ y }} className='w-full h-full p-[2vw] gap-[2vw] ] overflow-hidden'>
-                {images.map((img) => (
+                {images.map((img,i) => (
                     <img
+                    key={i}
                         src={img}
                         className='rounded-3xl py-2 w-[25%] h-[100%] min-w-[320px] overflow-hidden '></img>
                 ))}
@@ -60,16 +61,14 @@ export default function Yt() {
     ]
     return (
         <div>
-            <div className='lg:h-[100vh] w-full relative'><img src="z.jpg" alt="" />
-                <p className='absolute top-32 left-10 text-5xl text-black font-extrabold '><RevealLinks /></p></div>
+            <div className='lg:h-[100vh] w-full relative '><img src="z.jpg" alt="image" />
+                <div className='absolute bottom-7 left-2 md:top-32 md:left-10 text-5xl text-black font-extrabold '><RevealLinks /></div></div>
             <div ref={box} className='flex overflow-hidden'>
                 <Card images={[images[0], images[1], images[2]]} y={y} />
                 <Card images={[images[3], images[4], images[5]]} y={y2} />
                 <Card images={[images[6], images[7], images[8]]} y={y3} />
                 <Card images={[images[9], images[10], images[11]]} y={y4} />
             </div>
-            <div className='lg:h-full w-full relative'><img src="down.png" alt="" />
-                <p className='absolute top-32 left-10 text-5xl text-black font-extrabold '><RevealLinks /></p></div>
         </div>
     )
 }
