@@ -14,6 +14,13 @@ import { Marquee } from "./Component/Marquee";
 import Footer from "./Component/Footer";
 import Figma from "./Component/figma";
 import { motion } from "framer-motion"
+import Faq from './Component/faq';
+import { Quattrocento } from 'next/font/google';
+
+const font = Quattrocento({
+  subsets : ['latin'],
+  weight : '400'
+})
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,7 +36,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div id="smooth" className="w-full h-full overflow-hidden">
+    <div id="smooth" className={`w-full h-full ${font.className} overflow-hidden`}>
       <Header />
       <Hero />
       <div className="text-center text-2xl text-neutral-500 mt-10">
@@ -54,9 +61,11 @@ export default function Home() {
 
         </div>
       </div>
-      <Pricing />
       <div className="mt-14 bg-black">      <TextParallaxContentExample />
       </div>
+      <Pricing />
+
+      <div className='my-36'><Faq/></div>
       <Footer bg="bg.mp4"/>
     </div>
   );
