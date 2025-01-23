@@ -9,10 +9,10 @@ const font = Wire_One({
 export const RevealLinks = () => {
   return (
     <section className={`grid place-content-center gap-2 ${font.className} px-8 py-24 text-yellow-500`}>
-      <FlipLink href="#">Twitter</FlipLink>
-      <FlipLink href="#">Linkedin</FlipLink>
-      <FlipLink href="#">Facebook</FlipLink>
-      <FlipLink href="#">Instagram</FlipLink>
+      <FlipLink href="https://x.com/nav_venk">Twitter</FlipLink>
+      <FlipLink href="https://www.linkedin.com/in/navin-venkat-38bb28279/">Linkedin</FlipLink>
+      <FlipLink href="https://navinpinkman.vercel.app/">Portfolio</FlipLink>
+      <FlipLink href="https://www.instagram.com/navin.pinkman/">Instagram</FlipLink>
     </section>
   );
 };
