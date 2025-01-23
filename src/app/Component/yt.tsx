@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTransform, useScroll } from 'framer-motion'
+import { useTransform, useScroll, MotionValue } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 import { motion } from "framer-motion"
 import Lenis from '@studio-freight/lenis'
@@ -19,7 +19,7 @@ export default function Yt() {
 
     interface typess {
         images: string[],
-        y: any
+        y: MotionValue<number>
     }
 
     const { scrollYProgress } = useScroll({
