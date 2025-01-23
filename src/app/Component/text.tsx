@@ -1,6 +1,4 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { Smooch } from "next/font/google";
 import { Wire_One } from "next/font/google";
 
 const font = Wire_One({
