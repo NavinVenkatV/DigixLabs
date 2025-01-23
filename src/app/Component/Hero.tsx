@@ -23,7 +23,7 @@ function Hero() {
             <Button />
           </div>
             <motion.img
-            initial={{x:100, opacity:0}}
+            initial={{x:200, opacity:0}}
             whileInView={{x:0, opacity:1}}
             transition={{duration:1, ease:"easeInOut"}}
              src="/bg.jpg" alt="LOADING..." className='rounded-full py-10' />

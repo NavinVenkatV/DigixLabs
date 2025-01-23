@@ -62,7 +62,7 @@ export default function Yt() {
     return (
         <div>
             <div className='lg:h-[100vh] w-full relative '><img src="z.jpg" alt="image" />
-                <div className='absolute bottom-7 left-2 md:top-32 md:left-10 text-5xl text-black font-extrabold '><RevealLinks /></div></div>
+                <div className='absolute bottom-4 left-1 md:top-32 md:left-10 text-5xl text-black font-extrabold '><RevealLinks /></div></div>
             <div ref={box} className='flex overflow-hidden'>
                 <Card images={[images[0], images[1], images[2]]} y={y} />
                 <Card images={[images[3], images[4], images[5]]} y={y2} />
