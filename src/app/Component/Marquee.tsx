@@ -10,7 +10,7 @@ export const Marquee = () => {
         animate={{ x: '-100%' }}
         transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
       >
-        <div className="p-3  text-4xl flex gap-6 text-black ">
+        <div className="p-2 md:p-3 text-xl  md:text-3xl flex gap-6 text-black ">
           {repeatText.map((c, key)=>(
             <div key={key}>
               {c}

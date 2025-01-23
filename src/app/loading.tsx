@@ -4,7 +4,7 @@ import React from 'react'
 function loading() {
 
   return (
-    <div className='w-full h-full flex items-center justify-center'>
+    <div className='w-full h-full flex items-center justify-center bg-black'>
       <div className='h-screen flex flex-col justify-center items-center'>
       <div role="status" >
         <svg aria-hidden="true" className="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-pink-500" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">

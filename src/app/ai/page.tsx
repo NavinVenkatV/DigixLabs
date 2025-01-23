@@ -12,9 +12,9 @@ const font = Quattrocento({
 
 export default function page() {
   return (
-    <div className={`${font.className}`}>
+    <div className={`${font.className} text-white bg-black`}>
       <Header />
-      <div className='text-center items-center flex justify-center w-full h-full'>
+      <div className='text-center items-center flex justify-center w-full h-full bg-black'>
         <div className='w-screen h-screen flex flex-col justify-center items-center text-pink-500 lg:text-3xl'>
           <div className='p-5'>Dont&apos; Worry, We&apos;ll launch this page before  GTA VI 🤠</div>
         <Image
