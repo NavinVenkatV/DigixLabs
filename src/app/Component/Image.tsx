@@ -1,9 +1,10 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Images() {
   return (
     <div>
-      <img src="/bg.jpg" alt="LOADING..." className='rounded-full py-10'/>
+      <Image src="/bg.jpg" alt="LOADING..." className='rounded-full py-10'/>
     </div>
   )
 }
