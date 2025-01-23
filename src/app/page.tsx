@@ -13,9 +13,8 @@ import Footer from "./Component/Footer";
 import Figma from "./Component/figma";
 import { motion } from "framer-motion"
 import Faq from './Component/faq';
-import { Quattrocento } from 'next/font/google';
-
-const font = Quattrocento({
+import { Bebas_Neue } from 'next/font/google';
+const font = Bebas_Neue({
   subsets : ['latin'],
   weight : '400'
 })
