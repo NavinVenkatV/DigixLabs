@@ -4,8 +4,6 @@ import Lenis from '@studio-freight/lenis'
 
 
 import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Header from "./Component/Header";
 import Hero from "./Component/Hero";
 import Pricing from "./Component/Pricing";
@@ -22,7 +20,6 @@ const font = Quattrocento({
   weight : '400'
 })
 
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
 
@@ -66,7 +63,7 @@ export default function Home() {
       <Pricing />
 
       <div className='my-36'><Faq/></div>
-      <Footer bg="bg.mp4"/>
+      <Footer />
     </div>
   );
 }
