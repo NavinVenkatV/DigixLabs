@@ -13,7 +13,7 @@ export const TextParallaxContentExample = () => {
         heading="Don’t Expect to Be Very Good."
       >
         <ExampleContent 
-        description="“The skill and ability involved in writing sentences is generally underrated, and assumed to be a much more universal capacity than it really is…Most people know that they couldn’t write even a very bad song, or paint a picture, and understand their limits in that regard. On the other hand, everybody can write prose after some fashion, so it is not quite clear to them that they don’t actually have the ability to do it to a professional standard. That ability is quite a rare one.” - Philip Hensher, Professor of Creative Writing at the University of Exeter"
+        description="“The skill and ability involved in writing sentences is generally underrated, and assumed to be a much more universal capacity than it really is…Most people know that they couldn&apos;t write even a very bad song, or paint a picture, and understand their limits in that regard. On the other hand, everybody can write prose after some fashion, so it is not quite clear to them that they don’t actually have the ability to do it to a professional standard. That ability is quite a rare one.” - Philip Hensher, Professor of Creative Writing at the University of Exeter"
         />
       </TextParallaxContent>
       <TextParallaxContent
@@ -22,7 +22,7 @@ export const TextParallaxContentExample = () => {
         heading="Be Consistent Anyway."
       >
         <ExampleContent 
-        description="Many great projects go through a stage early on where they don’t seem very impressive, even to their creators. You have to push through this stage to reach the great work that lies beyond. But many people don’t. Most people don’t even reach the stage of making something they’re embarrassed by, let alone continue past it. They’re too frightened even to start. - Paul Graham"
+        description="Many great projects go through a stage early on where they don&apos;t seem very impressive, even to their creators. You have to push through this stage to reach the great work that lies beyond. But many people don&apos;t. Most people don&apos;t even reach the stage of making something they&apos;re embarrassed by, let alone continue past it. They&apos;re too frightened even to start. - Paul Graham"
         />
       </TextParallaxContent>
       <TextParallaxContent
@@ -31,7 +31,7 @@ export const TextParallaxContentExample = () => {
         heading="Block Time for Writing."
       >
         <ExampleContent 
-        description="“Because of technology, some people feel distracted – they can’t focus, that they can’t pay attention to what’s in front of them because their minds keep jumping around. They aren’t getting their work done; they’re not paying attention to their kids.” - Gretchen Ruben"
+        description="“Because of technology, some people feel distracted  they cant focus, that they can&apos;t pay attention to what&apos;s in front of them because their minds keep jumping around. They aren&apos;t getting their work done; they&apos;re not paying attention to their kids.” - Gretchen Ruben"
         />
       </TextParallaxContent>
     </div>
