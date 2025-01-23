@@ -47,7 +47,21 @@ interface typess {
   children : React.ReactNode
 }
 
-const TextParallaxContent = ({ imgUrl, subheading, heading, children } : typess ) => {
+interface typess1 {
+  imgUrl : string,
+  heading : string,
+  subheading : string,
+  children : React.ReactNode
+}
+
+interface childType {
+  children : React.ReactNode,
+  imgUrl : string, 
+  heading : string,
+  subheading : string
+}
+
+const TextParallaxContent = ({children, imgUrl, heading, subheading} : childType)  => {
   return (
     <div
       style={{
@@ -64,7 +78,11 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children } : typess 
   );
 };
 
-const StickyImage = ({ imgUrl  } : typess ) => {
+interface imgType {
+  imgUrl : string
+}
+
+const StickyImage = ({ imgUrl  } : imgType ) => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -97,7 +115,12 @@ const StickyImage = ({ imgUrl  } : typess ) => {
   );
 };
 
-const OverlayCopy = ({heading, subheading} : typess)  => {
+interface overlayType {
+  heading : string,
+  subheading : string
+}
+
+const OverlayCopy = ({heading, subheading} : overlayType)  => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
