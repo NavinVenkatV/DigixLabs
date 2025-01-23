@@ -33,7 +33,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div id="smooth" className={`w-full h-full ${font.className} overflow-hidden relative`}>
+    <div id="smooth" className={`w-full h-full ${font.className} overflow-hidden relative text-white bg-black`}>
       <Header />
       <Hero />
       <div className="text-center text-2xl text-neutral-500 mt-10">
