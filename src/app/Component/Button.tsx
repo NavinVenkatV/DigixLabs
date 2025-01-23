@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Button() {
     return (
-        <a href='/'>
+        <Link href='/'>
             <button onClick={()=>{
                 
             }} className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">
@@ -11,7 +12,7 @@ function Button() {
                     Book a Call
                 </span>
             </button>
-        </a>
+        </Link>
     )
 }
 

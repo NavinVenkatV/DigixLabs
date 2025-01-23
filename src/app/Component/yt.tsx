@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useTransform, useScroll } from 'framer-motion'
 import { useRef, useEffect } from 'react'
 import { motion } from "framer-motion"

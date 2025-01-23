@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Wire_One } from "next/font/google";
-
-const font = Wire_One({
-  subsets : ['latin'],
-  weight : "400"
-})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;w
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">

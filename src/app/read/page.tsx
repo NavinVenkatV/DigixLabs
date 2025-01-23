@@ -1,7 +1,6 @@
 "use client"
 
 import Header from "../Component/Header";
-import Lenis from "@studio-freight/lenis/types";
 
 import Footer from "../Component/Footer";
 import Yt from "../Component/yt";
@@ -23,7 +22,7 @@ export default function Home() {
       <div className="py-5">
         <Yt/>
       </div>
-      <Footer bg="bg.mp4"/>
+      <Footer/>
     </div> 
   );
 }
