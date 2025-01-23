@@ -17,7 +17,7 @@ export default function Yt() {
 
     const box = useRef(null)
 
-    interface types {
+    interface typess {
         images: string[],
         y: any
     }
@@ -32,7 +32,7 @@ export default function Yt() {
     const y3 = useTransform(scrollYProgress, [0, 1], [1, 500])
     const y4 = useTransform(scrollYProgress, [0, 1], [1, -30])
 
-    function Card({ images, y }: types) {
+    function Card({ images, y }: typess) {
         return (
             <motion.div style={{ y }} className='w-full h-full p-[2vw] gap-[2vw] ] overflow-hidden'>
                 {images.map((img,i) => (

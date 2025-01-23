@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import {motion} from "framer-motion"
 
-interface Typess {
-    data: {
-        rows: {
-            title: string;
-            description: string;
-        }[];
-    };
-}
+
 
 function Faq() {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -70,7 +63,7 @@ const data = {
         {
             title: 'What is the difference between content marketing and SEO?',
             description:
-                'While SEO and content marketing are very much related, we like to think of them as art and science. Content marketing is the art, and SEO is the science. Content marketing is delivering information to your target audience through various channels and leaving them with a favorable impression of your brand. The content itself can take many forms – and it should be artful! SEO is much more technical and scientific, involving keyword targets, metadata, links, site speed, and more.',
+                'While SEO and content marketing are very much related, we like to think of them as art and science. Content marketing is the art, and SEO is the science. Content marketing is delivering information to your target audience through various channels and leaving them with a favorable impression of your brand. The content itself can take many forms and it should be artful! SEO is much more technical and scientific, involving keyword targets, metadata, links, site speed, and more.',
         },
         {
             title: 'Does SEO come first, or does content marketing?',
@@ -80,7 +73,7 @@ const data = {
         {
             title: 'Does content marketing drive sales?',
             description:
-                'Yes, if that’s your goal. Like any marketing campaign, it depends on your aim. If your goal is to drive awareness, your content is going to address top-of-the-funnel queries. If your goal is to drive sales, your content is going to address bottom-of-funnel queries. Addressing every step in your customer journey is the best way to drive sales or conversions or to grow your online following.',
+                'Yes, if thats your goal. Like any marketing campaign, it depends on your aim. If your goal is to drive awareness, your content is going to address top-of-the-funnel queries. If your goal is to drive sales, your content is going to address bottom-of-funnel queries. Addressing every step in your customer journey is the best way to drive sales or conversions or to grow your online following.',
         },
         {
             title: 'Is content marketing only for big national brands?',
