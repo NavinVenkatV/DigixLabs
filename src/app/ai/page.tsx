@@ -1,14 +1,13 @@
 "use client"
 
 import Header from '../Component/Header'
-import { Quattrocento } from 'next/font/google';
 import Image from 'next/image';
 
-const font = Quattrocento({
+import { Roboto } from 'next/font/google';
+const font = Roboto({
   subsets : ['latin'],
   weight : '400'
 })
-
 
 export default function page() {
   return (

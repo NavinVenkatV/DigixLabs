@@ -13,8 +13,8 @@ import Footer from "./Component/Footer";
 import Figma from "./Component/figma";
 import { motion } from "framer-motion"
 import Faq from './Component/faq';
-import { Bebas_Neue } from 'next/font/google';
-const font = Bebas_Neue({
+import { Roboto } from 'next/font/google';
+const font = Roboto({
   subsets : ['latin'],
   weight : '400'
 })
@@ -32,7 +32,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div id="smooth" className={`w-full h-full ${font.className} overflow-hidden relative text-white bg-black`}>
+    <div id="smooth" className={`w-full h-full ${font.className} font- overflow-hidden relative text-white bg-black`}>
       <Header />
       <Hero />
       <div className="text-center text-2xl text-neutral-500 mt-10">
