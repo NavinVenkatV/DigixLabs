@@ -40,19 +40,6 @@ export const TextParallaxContentExample = () => {
 
 const IMG_PADDING = 12;
 
-interface typess {
-  imgUrl : string,
-  subheading : string, 
-  heading : string,
-  children : React.ReactNode
-}
-
-interface typess1 {
-  imgUrl : string,
-  heading : string,
-  subheading : string,
-  children : React.ReactNode
-}
 
 interface childType {
   children : React.ReactNode,
