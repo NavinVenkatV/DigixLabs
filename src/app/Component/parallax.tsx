@@ -137,7 +137,7 @@ interface sample{
   description : string
 }
 const ExampleContent = ({description}  : sample) => (
-  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 md:grid-cols-12">
     <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
       Additional content explaining the above card here
     </h2>
@@ -145,7 +145,7 @@ const ExampleContent = ({description}  : sample) => (
       <p className="mb-4 text-xl text-pink-500 md:text-2xl">
       {description}
       </p>
-      <p className="mb-8 text-xl text-white md:text-2xl">
+      <p className="mb-8 text-xl text-white md:text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
         reiciendis blanditiis aliquam aut fugit sint.
       </p>

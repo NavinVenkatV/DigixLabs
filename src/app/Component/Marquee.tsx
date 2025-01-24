@@ -8,7 +8,7 @@ export const Marquee = () => {
       <motion.div
         initial={{ x: '0%' }}
         animate={{ x: '-100%' }}
-        transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
+        transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
       >
         <div className="p-2 md:p-3 text-xl  md:text-3xl flex gap-6 text-black ">
           {repeatText.map((c, key)=>(
