@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.10.1",
     "@next/font": "^14.2.15",
     "@studio-freight/lenis": "^1.0.42",
     "@types/locomotive-scroll": "^4.1.4",
