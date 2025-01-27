@@ -17,7 +17,7 @@ function Hero() {
        className='flex justify-center h-full  bg-red'>
         <div className='flex flex-col pt-40 lg:w-1/2 relative z-10'>
           <p className='text-3xl lg:text-7xl text-center font-bold smooth'><span className='text-pink-500'>B</span>uilding the <span className='text-pink-500'>F</span>uture of <span className='text-pink-500'>T</span>echnical <span className='text-pink-500'>C</span>ontent.</p>
-          <p className='text-slate-500 text-sm px-8 lg:px-32 mt-3 flex justify-center items-center text-center'>Supercharge your brand with Cryptonic Labs. We offer
+          <p className='text-slate-500 text-sm px-8 lg:px-32 mt-3 flex justify-center items-center text-center'>Supercharge your brand with DigixLabs. We offer
             DevRel-as-a-Service for early-stage DevTools and SaaS startups.</p>
           <div className='mt-3 text-center'>
             <Button />

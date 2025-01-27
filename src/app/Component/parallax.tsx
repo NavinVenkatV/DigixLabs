@@ -145,7 +145,7 @@ const ExampleContent = ({description}  : sample) => (
       <p className="mb-4 text-xl text-pink-500 md:text-2xl">
       {description}
       </p>
-      <p className="mb-8 text-xl text-white md:text-xl">
+      <p className="mb-8 text-xl text-white md:text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
         reiciendis blanditiis aliquam aut fugit sint.
       </p>
