@@ -16,10 +16,13 @@ function Pricing() {
             </div>
         </div>
       </div>
-      <div className='lg:flex justify-around px-12 lg:px-36'>
+      <div className='flex justify-center items-center '>
+      <div className='lg:flex gap-10  mx-14'>
         <PricingTag/>
         <PricingTag2/>
       </div>
+      </div>
+      
     </div>
   )
 }
